@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2015/7/3" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="US/Pacific"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="backtologin" value="Back to Login Page"/>
+		<phrase id="booleanno" value="No"/>
+		<phrase id="booleanyes" value="Yes"/>
+		<phrase id="breadcrumbdivider" value="/"/>
+		<phrase id="browsernoflashsupport" value="Your browser does not support Flash player." client="1"/>
+		<phrase id="buttonexport" value="Export" class="icon-export ewIcon"/><!-- v8 -->
+		<phrase id="cancel" value="Cancel" client="1"/><!-- v8 -->
+		<phrase id="chartorder" value="Order by"/>
+		<phrase id="chartorderxasc" value="Labels ASC"/>
+		<phrase id="chartorderxdesc" value="Labels DESC"/>
+		<phrase id="chartorderyasc" value="Values ASC"/>
+		<phrase id="chartorderydesc" value="Values DESC"/>
+		<phrase id="clicktodrilldown" value="Click to drill down"/>
+		<phrase id="currentfilters" value="Current filters:"/>
+		<phrase id="deletefilter" value="Delete filter"/><!-- v8 -->
+		<phrase id="deletefilterconfirm" value="Delete filter %s?" client="1"/><!-- v8 -->
+		<phrase id="drilldownallrecords" value="All records"/>
+		<phrase id="drilldownfilters" value="Drill down filters:"/>
+		<phrase id="enterfiltername" value="Enter filter name" client="1"/><!-- v8 -->
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="emptylabel" value="(Empty)"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later."/>
+		<phrase id="exportchart" value="Exporting chart: " client="1"/>
+		<phrase id="exportchartdata" value="Exporting chart data" client="1"/>
+		<phrase id="exportcharterror" value="Failed to export chart: " client="1"/>
+		<phrase id="exportingchart" value="Exporting chart (%c of %t), please wait..." client="1"/>
+		<phrase id="exporttoemail" value="Email" class="icon-email ewIcon" client="1"/><!-- v8 -->
+		<phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ewIcon"/><!-- v8 -->
+		<phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ewIcon"/><!-- v8 -->
+		<phrase id="exporttoword" value="Export to Word" class="icon-word ewIcon"/><!-- v8 -->
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filter" value="Filter"/><!-- v8 -->
+		<phrase id="filtername" value="Filter name" client="1"/><!-- v8 -->
+		<phrase id="filters" value="Filters" class="icon-filter ewIcon"/><!-- v8 -->
+		<phrase id="homepage" value="Home" class="glyphicon glyphicon-home ewIcon"/><!-- v8 -->
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number" client="1"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect Social Security Number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="invalidpostrequest" value="Invalid post request"/><!-- v8 -->
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading%s..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="loginoptions" value="Options"/><!-- v8 -->
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="monthjan" value="Jan"/>
+		<phrase id="monthfeb" value="Feb"/>
+		<phrase id="monthmar" value="Mar"/>
+		<phrase id="monthapr" value="Apr"/>
+		<phrase id="monthmay" value="May"/>
+		<phrase id="monthjun" value="Jun"/>
+		<phrase id="monthjul" value="Jul"/>
+		<phrase id="monthaug" value="Aug"/>
+		<phrase id="monthsep" value="Sep"/>
+		<phrase id="monthoct" value="Oct"/>
+		<phrase id="monthnov" value="Nov"/>
+		<phrase id="monthdec" value="Dec"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="noreportorcharts" value="No report or charts is selected for generation. Please check your report/charts settings."/>
+		<phrase id="nodistinctcolvals" value="No distinct column values for sql: "/>
+		<phrase id="nulllabel" value="(Null)"/>
+		<phrase id="of" value="of"/>
+		<phrase id="ok" value="OK" client="1"/><!-- v8 -->
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="popupall" value="(All)" client="1"/>
+		<phrase id="popupfrom" value="From" client="1"/>
+		<phrase id="popupnovalue" value="No value selected!" client="1"/>
+		<phrase id="popupselect" value="Please Select" client="1"/>
+		<phrase id="popupto" value="To" client="1"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="printerfriendly" value="Printer Friendly" class="icon-print ewIcon"/><!-- v8 -->
+		<phrase id="group" value="Groups"/>
+		<phrase id="groupsperpage" value="Groups per page"/>
+		<phrase id="qtr1" value="1st Quarter"/>
+		<phrase id="qtr2" value="2nd Quarter"/>
+		<phrase id="qtr3" value="3rd Quarter"/>
+		<phrase id="qtr4" value="4th Quarter"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordsperpage" value="Records per page"/>
+		<phrase id="report" value="Reports"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetallfilter" value="Reset all filters" class="icon-reset-search ewIcon"/><!-- v8 -->
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="AVG"/>
+		<phrase id="rptcnt" value="COUNT"/>
+		<phrase id="rptdtlrec" value=" detail records"/>
+		<phrase id="rptgrandsummary" value="Grand Summary"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="MAX"/>
+		<phrase id="rptmin" value="MIN"/>
+		<phrase id="rptpagesummary" value="Page Summary"/>
+		<phrase id="rptpagetotal" value="Page Total"/>
+		<phrase id="rptseparator" value=":&amp;nbsp;"/>
+		<phrase id="rptsum" value="SUM"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="savecurrentfilter" value="Save current filter"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="searchbtn" value="Filter Panel" class="glyphicon glyphicon-search ewIcon"/>
+		<phrase id="selectall" value="(All)"/>
+		<phrase id="sendemailbtn" value="Send" client="1"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="summary" value="Summary"/>
+		<phrase id="tasks" value="Tasks"/>
+		<phrase id="to" value="to"/>
+		<phrase id="top" value="Top"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="username" value="User name"/>
+		<phrase id="valuenotexist" value="Value does not exist" client="1"/><!-- v8 -->
+		<phrase id="viewimage" value="Click to view image"/><!-- v8 -->
+		<phrase id="week" value="Week"/>
+		<phrase id="year" value="Year"/>
+		<!-- Search Operators -->
+		<phrase id="=" value="&amp;nbsp;"/>
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="ends with" value="ends with"/>
+		<phrase id="is null" value="is null"/>
+		<phrase id="is not null" value="is not null"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+		<!-- Menu Prefix/Suffix -->
+		<phrase id="simplereportmenuitemprefix" value=""/>
+		<phrase id="simplereportmenuitemsuffix" value=""/>
+		<phrase id="detailsummaryreportmenuitemprefix" value=""/>
+		<phrase id="detailsummaryreportmenuitemsuffix" value=""/>
+		<phrase id="crosstabreportmenuitemprefix" value=""/>
+		<phrase id="crosstabreportmenuitemsuffix" value=""/>
+		<phrase id="chartreportmenuitemprefix" value=""/>
+		<phrase id="chartreportmenuitemsuffix" value=""/>
+		<!-- Advanced Filter -->
+		<phrase id="future" value="Future"/>
+		<phrase id="past" value="Past"/>
+		<phrase id="last14days" value="Last 14 days"/>
+		<phrase id="last30days" value="Last 30 days"/>
+		<phrase id="last7days" value="Last 7 days"/>
+		<phrase id="next14days" value="Next 14 days"/>
+		<phrase id="next30days" value="Next 30 days"/>
+		<phrase id="next7days" value="Next 7 days"/>
+		<phrase id="today" value="Today"/>
+		<phrase id="tomorrow" value="Tomorrow"/>
+		<phrase id="yesterday" value="Yesterday"/>
+		<phrase id="lastmonth" value="Last month"/>
+		<phrase id="nextmonth" value="Next month"/>
+		<phrase id="thismonth" value="This month"/>
+		<phrase id="lasttwoweeks" value="Last two weeks"/>
+		<phrase id="lastweek" value="Last week"/>
+		<phrase id="nexttwoweeks" value="Next two weeks"/>
+		<phrase id="nextweek" value="Next week"/>
+		<phrase id="thisweek" value="This week"/>
+		<phrase id="lastyear" value="Last year"/>
+		<phrase id="nextyear" value="Next year"/>
+		<phrase id="thisyear" value="This year"/>
+	</global>
+	<project><phrase id="footertext" value="&amp;copy;2015 e.World Technology Ltd. All rights reserved."/>
+<menu id="1"><phrase id="menutext" value="currency"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="dbusers"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="invoicerefsale"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="migration"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="monthdata"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="saleorderinvoice"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="saleorderinvoiceline"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="salesorder"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="salesorderline"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="salesorderlinetemp"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="Sys Sale Customer"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="Sys Sale Data"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="Sys Sys Amphur"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="Sys Sys Continent"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="Sys Sys Country"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="Sys Sys District"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="Sys Sys Province"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="unit"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="user"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="usergroups"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="rptinvoicesaleordersummary"/>
+</menu>
+<menu id="22"><phrase id="menutext" value="rptinvoicesummary"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="rptinvoicesummarybysale"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="rptinvoicewithsale"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="rptrinvoice"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="rptsaleorder"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="rptsaleordersummary"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="rptsaleordersummarybysale"/>
+</menu>
+<menu id="29"><phrase id="menutext" value="rtpinvoicesummarybyitemtype"/>
+</menu>
+<menu id="30"><phrase id="menutext" value="inv 500"/>
+</menu>
+<table id="currency"><phrase id="tblcaption" value="currency"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="currencycode"><phrase id="fldcaption" value="currencycode"/>
+</field>
+<field id="icon"><phrase id="fldcaption" value="icon"/>
+</field>
+</table>
+<table id="dbusers"><phrase id="tblcaption" value="dbusers"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="fname"><phrase id="fldcaption" value="fname"/>
+</field>
+<field id="lname"><phrase id="fldcaption" value="lname"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="username"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="groupid"><phrase id="fldcaption" value="groupid"/>
+</field>
+<field id="createdate"><phrase id="fldcaption" value="createdate"/>
+</field>
+</table>
+<table id="invoicerefsale"><phrase id="tblcaption" value="invoicerefsale"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="invid"><phrase id="fldcaption" value="invid"/>
+</field>
+<field id="saleid"><phrase id="fldcaption" value="saleid"/>
+</field>
+</table>
+<table id="migration"><phrase id="tblcaption" value="migration"/>
+<field id="version"><phrase id="fldcaption" value="version"/>
+</field>
+<field id="apply_time"><phrase id="fldcaption" value="apply time"/>
+</field>
+</table>
+<table id="monthdata"><phrase id="tblcaption" value="monthdata"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="month"><phrase id="fldcaption" value="month"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+</table>
+<table id="saleorderinvoice"><phrase id="tblcaption" value="saleorderinvoice"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="invoiceno"><phrase id="fldcaption" value="invoiceno"/>
+</field>
+<field id="invoicedate"><phrase id="fldcaption" value="invoicedate"/>
+</field>
+<field id="invcurrency"><phrase id="fldcaption" value="invcurrency"/>
+</field>
+<field id="invcurrencyrate"><phrase id="fldcaption" value="invcurrencyrate"/>
+</field>
+<field id="customerid"><phrase id="fldcaption" value="customerid"/>
+</field>
+<field id="createdate"><phrase id="fldcaption" value="createdate"/>
+</field>
+<field id="disper"><phrase id="fldcaption" value="disper"/>
+</field>
+<field id="boxprc"><phrase id="fldcaption" value="boxprc"/>
+</field>
+</table>
+<table id="saleorderinvoiceline"><phrase id="tblcaption" value="saleorderinvoiceline"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="invid"><phrase id="fldcaption" value="invid"/>
+</field>
+<field id="invline"><phrase id="fldcaption" value="invline"/>
+</field>
+<field id="partno"><phrase id="fldcaption" value="partno"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="quantity"/>
+</field>
+<field id="unitprice"><phrase id="fldcaption" value="unitprice"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="unit"/>
+</field>
+<field id="saleid"><phrase id="fldcaption" value="saleid"/>
+</field>
+</table>
+<table id="salesorder"><phrase id="tblcaption" value="salesorder"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="saleno"><phrase id="fldcaption" value="saleno"/>
+</field>
+<field id="saledate"><phrase id="fldcaption" value="saledate"/>
+</field>
+<field id="customer"><phrase id="fldcaption" value="customer"/>
+</field>
+<field id="saleman"><phrase id="fldcaption" value="saleman"/>
+</field>
+<field id="refno"><phrase id="fldcaption" value="refno"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="shipdate"><phrase id="fldcaption" value="shipdate"/>
+</field>
+<field id="shipfrom"><phrase id="fldcaption" value="shipfrom"/>
+</field>
+<field id="shipto"><phrase id="fldcaption" value="shipto"/>
+</field>
+<field id="paymentterm"><phrase id="fldcaption" value="paymentterm"/>
+</field>
+<field id="currency"><phrase id="fldcaption" value="currency"/>
+</field>
+<field id="currencyrate"><phrase id="fldcaption" value="currencyrate"/>
+</field>
+<field id="createdate"><phrase id="fldcaption" value="createdate"/>
+</field>
+</table>
+<table id="salesorderline"><phrase id="tblcaption" value="salesorderline"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="saleid"><phrase id="fldcaption" value="saleid"/>
+</field>
+<field id="saleline"><phrase id="fldcaption" value="saleline"/>
+</field>
+<field id="custorderno"><phrase id="fldcaption" value="custorderno"/>
+</field>
+<field id="customername"><phrase id="fldcaption" value="customername"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="quantity"/>
+</field>
+<field id="unitprice"><phrase id="fldcaption" value="unitprice"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="partno"><phrase id="fldcaption" value="partno"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="unit"/>
+</field>
+</table>
+<table id="salesorderlinetemp"><phrase id="tblcaption" value="salesorderlinetemp"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="saleid"><phrase id="fldcaption" value="saleid"/>
+</field>
+<field id="saleline"><phrase id="fldcaption" value="saleline"/>
+</field>
+<field id="session"><phrase id="fldcaption" value="session"/>
+</field>
+<field id="custorderno"><phrase id="fldcaption" value="custorderno"/>
+</field>
+<field id="customername"><phrase id="fldcaption" value="customername"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="quantity"/>
+</field>
+<field id="unitprice"><phrase id="fldcaption" value="unitprice"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="partno"><phrase id="fldcaption" value="partno"/>
+</field>
+</table>
+<table id="sys_salecustomer"><phrase id="tblcaption" value="Sys Sale Customer"/>
+<field id="cus_id"><phrase id="fldcaption" value="Cus id"/>
+</field>
+<field id="cus_name"><phrase id="fldcaption" value="Cus Name"/>
+</field>
+<field id="cus_nickname"><phrase id="fldcaption" value="Cus Nickname"/>
+</field>
+<field id="cus_phone"><phrase id="fldcaption" value="Cus Phone"/>
+</field>
+<field id="cus_fax"><phrase id="fldcaption" value="Cus Fax"/>
+</field>
+<field id="cus_email"><phrase id="fldcaption" value="Cus Email"/>
+</field>
+<field id="cus_website"><phrase id="fldcaption" value="Cus Website"/>
+</field>
+<field id="cus_address"><phrase id="fldcaption" value="Cus Address"/>
+</field>
+<field id="cus_contactname"><phrase id="fldcaption" value="Cus Contactname"/>
+</field>
+<field id="cus_customeras"><phrase id="fldcaption" value="Cus Customeras"/>
+</field>
+<field id="cus_country"><phrase id="fldcaption" value="Cus Country"/>
+</field>
+<field id="cus_province"><phrase id="fldcaption" value="Cus Province"/>
+</field>
+<field id="cus_contactphone"><phrase id="fldcaption" value="Cus Contact Phone"/>
+</field>
+<field id="cus_description"><phrase id="fldcaption" value="Cus Description"/>
+</field>
+<field id="ts_create"><phrase id="fldcaption" value="ts create"/>
+</field>
+<field id="ts_update"><phrase id="fldcaption" value="ts update"/>
+</field>
+<field id="ts_name"><phrase id="fldcaption" value="ts name"/>
+</field>
+<field id="isdelete"><phrase id="fldcaption" value="Is Delete"/>
+</field>
+</table>
+<table id="sys_saledata"><phrase id="tblcaption" value="Sys Sale Data"/>
+<field id="sale_code"><phrase id="fldcaption" value="Sale Code"/>
+</field>
+<field id="sale_name"><phrase id="fldcaption" value="Sale Name"/>
+</field>
+<field id="sale_lastname"><phrase id="fldcaption" value="Sale Lastname"/>
+</field>
+<field id="sale_address"><phrase id="fldcaption" value="Sale Address"/>
+</field>
+<field id="sale_province"><phrase id="fldcaption" value="Sale Province"/>
+</field>
+<field id="sale_contact"><phrase id="fldcaption" value="Sale Contact"/>
+</field>
+<field id="sale_email"><phrase id="fldcaption" value="Sale Email"/>
+</field>
+<field id="sale_branch"><phrase id="fldcaption" value="Sale Branch"/>
+</field>
+<field id="sale_description"><phrase id="fldcaption" value="Sale Description"/>
+</field>
+<field id="ts_create"><phrase id="fldcaption" value="ts create"/>
+</field>
+<field id="ts_update"><phrase id="fldcaption" value="ts update"/>
+</field>
+<field id="ts_name"><phrase id="fldcaption" value="ts name"/>
+</field>
+<field id="isdelete"><phrase id="fldcaption" value="Is Delete"/>
+</field>
+</table>
+<table id="sys_sysamphur"><phrase id="tblcaption" value="Sys Sys Amphur"/>
+<field id="amphurid"><phrase id="fldcaption" value="Amphur Id"/>
+</field>
+<field id="amphurcode"><phrase id="fldcaption" value="Amphur Code"/>
+</field>
+<field id="amphurname"><phrase id="fldcaption" value="Amphur Name"/>
+</field>
+<field id="geoid"><phrase id="fldcaption" value="Geo Id"/>
+</field>
+<field id="provinceid"><phrase id="fldcaption" value="Province Id"/>
+</field>
+</table>
+<table id="sys_syscontinent"><phrase id="tblcaption" value="Sys Sys Continent"/>
+<field id="con_id"><phrase id="fldcaption" value="Con id"/>
+</field>
+<field id="con_nameth"><phrase id="fldcaption" value="Con name TH"/>
+</field>
+<field id="con_nameen"><phrase id="fldcaption" value="Con name EN"/>
+</field>
+<field id="con_description"><phrase id="fldcaption" value="Con description"/>
+</field>
+<field id="ts_create"><phrase id="fldcaption" value="ts create"/>
+</field>
+</table>
+<table id="sys_syscountry"><phrase id="tblcaption" value="Sys Sys Country"/>
+<field id="cry_id"><phrase id="fldcaption" value="Cry id"/>
+</field>
+<field id="con_id"><phrase id="fldcaption" value="Con id"/>
+</field>
+<field id="cry_nameth"><phrase id="fldcaption" value="Cry name TH"/>
+</field>
+<field id="cry_nameen"><phrase id="fldcaption" value="Cry name EN"/>
+</field>
+<field id="cry_description"><phrase id="fldcaption" value="Cry description"/>
+</field>
+<field id="ts_create"><phrase id="fldcaption" value="ts create"/>
+</field>
+</table>
+<table id="sys_sysdistrict"><phrase id="tblcaption" value="Sys Sys District"/>
+<field id="districtid"><phrase id="fldcaption" value="District Id"/>
+</field>
+<field id="districtcode"><phrase id="fldcaption" value="District Code"/>
+</field>
+<field id="districtname"><phrase id="fldcaption" value="District Name"/>
+</field>
+<field id="amphurid"><phrase id="fldcaption" value="Amphur Id"/>
+</field>
+<field id="provinceid"><phrase id="fldcaption" value="Province Id"/>
+</field>
+<field id="geoid"><phrase id="fldcaption" value="Geo Id"/>
+</field>
+</table>
+<table id="sys_sysprovince"><phrase id="tblcaption" value="Sys Sys Province"/>
+<field id="provinceid"><phrase id="fldcaption" value="Province Id"/>
+</field>
+<field id="provincecode"><phrase id="fldcaption" value="Province Code"/>
+</field>
+<field id="provincename"><phrase id="fldcaption" value="Province Name"/>
+</field>
+<field id="geoid"><phrase id="fldcaption" value="Geo Id"/>
+</field>
+</table>
+<table id="unit"><phrase id="tblcaption" value="unit"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="unit"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+</table>
+<table id="user"><phrase id="tblcaption" value="user"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="username"/>
+</field>
+<field id="auth_key"><phrase id="fldcaption" value="auth key"/>
+</field>
+<field id="password_hash"><phrase id="fldcaption" value="password hash"/>
+</field>
+<field id="password_reset_token"><phrase id="fldcaption" value="password reset token"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="created_at"><phrase id="fldcaption" value="created at"/>
+</field>
+<field id="updated_at"><phrase id="fldcaption" value="updated at"/>
+</field>
+</table>
+<table id="usergroups"><phrase id="tblcaption" value="usergroups"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="groupname"><phrase id="fldcaption" value="groupname"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="createdate"><phrase id="fldcaption" value="createdate"/>
+</field>
+</table>
+<table id="rptinvoicesaleordersummary"><phrase id="tblcaption" value="rptinvoicesaleordersummary"/>
+<field id="invid"><phrase id="fldcaption" value="invid"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+</table>
+<table id="rptinvoicesummary"><phrase id="tblcaption" value="rptinvoicesummary"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="invoiceno"><phrase id="fldcaption" value="invoiceno"/>
+</field>
+<field id="invoicedate"><phrase id="fldcaption" value="invoicedate"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="price"><phrase id="fldcaption" value="price"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+</table>
+<table id="rptinvoicesummarybysale"><phrase id="tblcaption" value="rptinvoicesummarybysale"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="mount"><phrase id="fldcaption" value="Mount"/>
+</field>
+<field id="invoiceno"><phrase id="fldcaption" value="invoiceno"/>
+</field>
+<field id="cus_name"><phrase id="fldcaption" value="Cus Name"/>
+</field>
+<field id="cus_customeras"><phrase id="fldcaption" value="Cus Customeras"/>
+</field>
+<field id="sale_name"><phrase id="fldcaption" value="Sale Name"/>
+</field>
+<field id="sale_lastname"><phrase id="fldcaption" value="Sale Lastname"/>
+</field>
+<field id="cus_country"><phrase id="fldcaption" value="Cus Country"/>
+</field>
+<field id="cry_nameth"><phrase id="fldcaption" value="Cry name TH"/>
+</field>
+<field id="cry_nameen"><phrase id="fldcaption" value="Cry name EN"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="totalbath"><phrase id="fldcaption" value="totalbath"/>
+</field>
+<field id="cus_nickname"><phrase id="fldcaption" value="Cus Nickname"/>
+</field>
+</table>
+<table id="rptinvoicewithsale"><phrase id="tblcaption" value="rptinvoicewithsale"/>
+<field id="invid"><phrase id="fldcaption" value="invid"/>
+</field>
+<field id="saleid"><phrase id="fldcaption" value="saleid"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+</table>
+<table id="rptrinvoice"><phrase id="tblcaption" value="rptrinvoice"/>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="invoiceno"><phrase id="fldcaption" value="invoiceno"/>
+</field>
+<field id="invoicedate"><phrase id="fldcaption" value="invoicedate"/>
+</field>
+<field id="currencycode"><phrase id="fldcaption" value="currencycode"/>
+</field>
+<field id="invcurrencyrate"><phrase id="fldcaption" value="invcurrencyrate"/>
+</field>
+<field id="cus_name"><phrase id="fldcaption" value="Cus Name"/>
+</field>
+<field id="createdate"><phrase id="fldcaption" value="createdate"/>
+</field>
+<field id="partno"><phrase id="fldcaption" value="partno"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="quantity"/>
+</field>
+<field id="unitprice"><phrase id="fldcaption" value="unitprice"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="saleno"><phrase id="fldcaption" value="saleno"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="unit"/>
+</field>
+<field id="cus_customeras"><phrase id="fldcaption" value="Cus Customeras"/>
+</field>
+<field id="cus_country"><phrase id="fldcaption" value="Cus Country"/>
+</field>
+<field id="totalbath"><phrase id="fldcaption" value="totalbath"/>
+</field>
+<field id="cus_nickname"><phrase id="fldcaption" value="Cus Nickname"/>
+</field>
+</table>
+<table id="rptsaleorder"><phrase id="tblcaption" value="rptsaleorder"/>
+<field id="saleno"><phrase id="fldcaption" value="saleno"/>
+</field>
+<field id="saledate"><phrase id="fldcaption" value="saledate"/>
+</field>
+<field id="cus_name"><phrase id="fldcaption" value="Cus Name"/>
+</field>
+<field id="sale_name"><phrase id="fldcaption" value="Sale Name"/>
+</field>
+<field id="refno"><phrase id="fldcaption" value="refno"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+<field id="shipdate"><phrase id="fldcaption" value="shipdate"/>
+</field>
+<field id="shipfrom"><phrase id="fldcaption" value="shipfrom"/>
+</field>
+<field id="cry_nameth"><phrase id="fldcaption" value="Cry name TH"/>
+</field>
+<field id="paymentterm"><phrase id="fldcaption" value="paymentterm"/>
+</field>
+<field id="currencycode"><phrase id="fldcaption" value="currencycode"/>
+</field>
+<field id="currencyrate"><phrase id="fldcaption" value="currencyrate"/>
+</field>
+<field id="createdate"><phrase id="fldcaption" value="createdate"/>
+</field>
+<field id="custorderno"><phrase id="fldcaption" value="custorderno"/>
+</field>
+<field id="customername"><phrase id="fldcaption" value="customername"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="quantity"/>
+</field>
+<field id="unitprice"><phrase id="fldcaption" value="unitprice"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="partno"><phrase id="fldcaption" value="partno"/>
+</field>
+<field id="unit"><phrase id="fldcaption" value="unit"/>
+</field>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+<field id="sale_code"><phrase id="fldcaption" value="Sale Code"/>
+</field>
+<field id="sale_lastname"><phrase id="fldcaption" value="Sale Lastname"/>
+</field>
+<field id="totalbath"><phrase id="fldcaption" value="totalbath"/>
+</field>
+</table>
+<table id="rptsaleordersummary"><phrase id="tblcaption" value="rptsaleordersummary"/>
+<field id="saleno"><phrase id="fldcaption" value="saleno"/>
+</field>
+<field id="saledate"><phrase id="fldcaption" value="saledate"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="price"><phrase id="fldcaption" value="price"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+<field id="recid"><phrase id="fldcaption" value="recid"/>
+</field>
+</table>
+<table id="rptsaleordersummarybysale"><phrase id="tblcaption" value="rptsaleordersummarybysale"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="mounth"><phrase id="fldcaption" value="Mounth"/>
+</field>
+<field id="saledate"><phrase id="fldcaption" value="saledate"/>
+</field>
+<field id="saleno"><phrase id="fldcaption" value="saleno"/>
+</field>
+<field id="cus_name"><phrase id="fldcaption" value="Cus Name"/>
+</field>
+<field id="sale_name"><phrase id="fldcaption" value="Sale Name"/>
+</field>
+<field id="sale_lastname"><phrase id="fldcaption" value="Sale Lastname"/>
+</field>
+<field id="currencyrate"><phrase id="fldcaption" value="currencyrate"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="price"><phrase id="fldcaption" value="price"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="totalbath"><phrase id="fldcaption" value="totalbath"/>
+</field>
+<field id="sale_code"><phrase id="fldcaption" value="Sale Code"/>
+</field>
+</table>
+<table id="rtpinvoicesummarybyitemtype"><phrase id="tblcaption" value="rtpinvoicesummarybyitemtype"/>
+<field id="year"><phrase id="fldcaption" value="Year"/>
+</field>
+<field id="mount"><phrase id="fldcaption" value="Mount"/>
+</field>
+<field id="invoiceno"><phrase id="fldcaption" value="invoiceno"/>
+</field>
+<field id="cus_name"><phrase id="fldcaption" value="Cus Name"/>
+</field>
+<field id="cus_customeras"><phrase id="fldcaption" value="Cus Customeras"/>
+</field>
+<field id="sale_name"><phrase id="fldcaption" value="Sale Name"/>
+</field>
+<field id="sale_lastname"><phrase id="fldcaption" value="Sale Lastname"/>
+</field>
+<field id="cus_country"><phrase id="fldcaption" value="Cus Country"/>
+</field>
+<field id="cry_nameth"><phrase id="fldcaption" value="Cry name TH"/>
+</field>
+<field id="cry_nameen"><phrase id="fldcaption" value="Cry name EN"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="totalamount"><phrase id="fldcaption" value="totalamount"/>
+</field>
+<field id="totalbath"><phrase id="fldcaption" value="totalbath"/>
+</field>
+<field id="cus_nickname"><phrase id="fldcaption" value="Cus Nickname"/>
+</field>
+<field id="description"><phrase id="fldcaption" value="description"/>
+</field>
+</table>
+<table id="inv500"><phrase id="tblcaption" value="inv 500"/>
+<field id="invid"><phrase id="fldcaption" value="invid"/>
+</field>
+<field id="saleid"><phrase id="fldcaption" value="saleid"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="amount"/>
+</field>
+</table>
+</project>
+</ew-language>

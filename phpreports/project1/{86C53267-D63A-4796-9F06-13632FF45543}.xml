@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<configuration date="2015/07/03" author="e.World Technology Ltd.">
+<project id="{86C53267-D63A-4796-9F06-13632FF45543}" file="D:\project1.prp" name="project1" product="PHPReportMaker" version="8.0" datetime="2015/07/03 09:58:52" languagefolder="phprptlang" userlevel="0,&quot;Default&quot;,0">
+<table id="currency" name="currency" caption="currency" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="dbusers" name="dbusers" caption="dbusers" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="invoicerefsale" name="invoicerefsale" caption="invoicerefsale" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="migration" name="migration" caption="migration" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="monthdata" name="monthdata" caption="monthdata" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="saleorderinvoice" name="saleorderinvoice" caption="saleorderinvoice" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="saleorderinvoiceline" name="saleorderinvoiceline" caption="saleorderinvoiceline" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="salesorder" name="salesorder" caption="salesorder" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="salesorderline" name="salesorderline" caption="salesorderline" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="salesorderlinetemp" name="salesorderlinetemp" caption="salesorderlinetemp" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SaleCustomer" name="Sys_SaleCustomer" caption="Sys Sale Customer" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SaleData" name="Sys_SaleData" caption="Sys Sale Data" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SysAmphur" name="Sys_SysAmphur" caption="Sys Sys Amphur" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SysContinent" name="Sys_SysContinent" caption="Sys Sys Continent" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SysCountry" name="Sys_SysCountry" caption="Sys Sys Country" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SysDistrict" name="Sys_SysDistrict" caption="Sys Sys District" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Sys_SysProvince" name="Sys_SysProvince" caption="Sys Sys Province" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="unit" name="unit" caption="unit" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="user" name="user" caption="user" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="usergroups" name="usergroups" caption="usergroups" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptinvoicesaleordersummary" name="rptinvoicesaleordersummary" caption="rptinvoicesaleordersummary" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptinvoicesummary" name="rptinvoicesummary" caption="rptinvoicesummary" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptinvoicesummarybysale" name="rptinvoicesummarybysale" caption="rptinvoicesummarybysale" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptinvoicewithsale" name="rptinvoicewithsale" caption="rptinvoicewithsale" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptrinvoice" name="rptrinvoice" caption="rptrinvoice" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptsaleorder" name="rptsaleorder" caption="rptsaleorder" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptsaleordersummary" name="rptsaleordersummary" caption="rptsaleordersummary" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rptsaleordersummarybysale" name="rptsaleordersummarybysale" caption="rptsaleordersummarybysale" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="rtpinvoicesummarybyitemtype" name="rtpinvoicesummarybyitemtype" caption="rtpinvoicesummarybyitemtype" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="inv500" name="inv500" caption="inv 500" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>

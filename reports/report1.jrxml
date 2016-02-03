@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d9a2dfbd-f7ac-4000-be18-655a110e4311">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Crosstab Data Text" hAlign="Center"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     rptinvoicesummarybysale."Year" AS rptinvoicesummarybysale_Year,
+     rptinvoicesummarybysale."Mount" AS rptinvoicesummarybysale_Mount,
+     rptinvoicesummarybysale."invoiceno" AS rptinvoicesummarybysale_invoiceno,
+     rptinvoicesummarybysale."Cus_Name" AS rptinvoicesummarybysale_Cus_Name,
+     rptinvoicesummarybysale."Cus_Customeras" AS rptinvoicesummarybysale_Cus_Customeras,
+     rptinvoicesummarybysale."Sale_Name" AS rptinvoicesummarybysale_Sale_Name,
+     rptinvoicesummarybysale."Sale_Lastname" AS rptinvoicesummarybysale_Sale_Lastname,
+     rptinvoicesummarybysale."Cus_Country" AS rptinvoicesummarybysale_Cus_Country,
+     rptinvoicesummarybysale."Cry_nameTH" AS rptinvoicesummarybysale_Cry_nameTH,
+     rptinvoicesummarybysale."Cry_nameEN" AS rptinvoicesummarybysale_Cry_nameEN,
+     rptinvoicesummarybysale."qty" AS rptinvoicesummarybysale_qty,
+     rptinvoicesummarybysale."totalamount" AS rptinvoicesummarybysale_totalamount,
+     rptinvoicesummarybysale."totalbath" AS rptinvoicesummarybysale_totalbath,
+     rptinvoicesummarybysale."Cus_Nickname" AS rptinvoicesummarybysale_Cus_Nickname
+FROM
+     "dbo"."rptinvoicesummarybysale" rptinvoicesummarybysale]]>
+	</queryString>
+	<field name="rptinvoicesummarybysale_invoiceno" class="java.lang.String"/>
+	<field name="rptinvoicesummarybysale_Sale_Name" class="java.lang.String"/>
+	<field name="rptinvoicesummarybysale_Mount" class="java.lang.Integer"/>
+	<field name="rptinvoicesummarybysale_totalamount" class="java.lang.Double"/>
+	<field name="rptinvoicesummarybysale_totalbath" class="java.lang.Double"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="38" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="57" y="15" width="100" height="20" uuid="15e5c8db-7de5-47fb-861f-9cccf6ec08ff"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="471" y="15" width="80" height="20" uuid="f0e6970d-40dd-4f84-bde2-0d0b5ecc7b95"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="558" y="15" width="40" height="20" uuid="38d244bb-f544-4210-a2f6-2dc77cc6cf07"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="28" y="2" width="100" height="20" uuid="a23acd3e-1b44-4210-bdfa-234a21763aac"/>
+				<text><![CDATA[rptinvoicesummarybysale_invoiceno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="2" width="100" height="20" uuid="5d9bff8f-25fc-4bd6-8969-405ea218371b"/>
+				<text><![CDATA[rptinvoicesummarybysale_Sale_Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="2" width="100" height="20" uuid="38c95e95-9ba0-46d8-b95a-7ddbeb5c5b09"/>
+				<text><![CDATA[rptinvoicesummarybysale_totalbath]]></text>
+			</staticText>
+			<line>
+				<reportElement x="12" y="51" width="446" height="1" uuid="6696e30d-3814-47e7-b140-c2960aeb9128"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="28" y="6" width="100" height="20" uuid="dd33bfc0-effa-4d34-ab58-9190c05b2cba"/>
+				<textFieldExpression><![CDATA[$F{rptinvoicesummarybysale_invoiceno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="154" y="6" width="100" height="20" uuid="f15183d5-4750-4e5c-a0bc-3ea8df5a8498"/>
+				<textFieldExpression><![CDATA[$F{rptinvoicesummarybysale_Sale_Name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="6" width="100" height="20" uuid="bb02c3bf-cdd2-4217-840e-687fa469eb21"/>
+				<textFieldExpression><![CDATA[$F{rptinvoicesummarybysale_totalbath}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="84" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
